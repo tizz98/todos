@@ -12,8 +12,8 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"
 
-	"github.com/theaaf/todos/app"
-	"github.com/theaaf/todos/model"
+	"github.com/tizz98/todos/app"
+	"github.com/tizz98/todos/model"
 )
 
 type statusCodeRecorder struct {

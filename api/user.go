@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/theaaf/todos/app"
-	"github.com/theaaf/todos/model"
+	"github.com/tizz98/todos/app"
+	"github.com/tizz98/todos/model"
 )
 
 type UserInput struct {

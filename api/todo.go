@@ -8,9 +8,9 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/theaaf/todos/model"
+	"github.com/tizz98/todos/model"
 
-	"github.com/theaaf/todos/app"
+	"github.com/tizz98/todos/app"
 )
 
 func (a *API) GetTodos(ctx *app.Context, w http.ResponseWriter, r *http.Request) error {

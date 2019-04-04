@@ -14,8 +14,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/theaaf/todos/api"
-	"github.com/theaaf/todos/app"
+	"github.com/tizz98/todos/api"
+	"github.com/tizz98/todos/app"
 )
 
 func serveAPI(ctx context.Context, api *api.API) {

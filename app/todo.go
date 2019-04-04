@@ -1,6 +1,6 @@
 package app
 
-import "github.com/theaaf/todos/model"
+import "github.com/tizz98/todos/model"
 
 func (ctx *Context) GetTodoById(id uint) (*model.Todo, error) {
 	if ctx.User == nil {

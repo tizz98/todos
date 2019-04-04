@@ -5,8 +5,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/theaaf/todos/db"
-	"github.com/theaaf/todos/model"
+	"github.com/tizz98/todos/db"
+	"github.com/tizz98/todos/model"
 )
 
 type Context struct {

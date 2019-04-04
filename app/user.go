@@ -5,7 +5,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/theaaf/todos/model"
+	"github.com/tizz98/todos/model"
 )
 
 func (a *App) GetUserByEmail(email string) (*model.User, error) {

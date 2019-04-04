@@ -3,7 +3,7 @@ package app
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/theaaf/todos/db"
+	"github.com/tizz98/todos/db"
 )
 
 type App struct {

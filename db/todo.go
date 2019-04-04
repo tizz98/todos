@@ -4,7 +4,7 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/pkg/errors"
 
-	"github.com/theaaf/todos/model"
+	"github.com/tizz98/todos/model"
 )
 
 func (db *Database) GetTodoById(id uint) (*model.Todo, error) {

@@ -8,8 +8,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/theaaf/todos/app"
-	"github.com/theaaf/todos/migrations"
+	"github.com/tizz98/todos/app"
+	"github.com/tizz98/todos/migrations"
 )
 
 var migrateCmd = &cobra.Command{
